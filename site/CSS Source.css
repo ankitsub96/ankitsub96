@@ -1,0 +1,175 @@
+a:link {
+  font-color: #85144b;
+}
+a:hover {
+  background-color: white;
+  font-size: 150%;
+}
+
+a:active {
+  background-color: black;
+}
+
+a:visited {
+  background-color: #ccc;
+}
+
+.headerstyle1{
+	font-family: "Times New Roman,Georgia, serif";
+	font-color: black;
+	font-weight:700;
+	font-size:10vw;
+	overflow: visible;
+
+}
+.headerstyle2{
+	font-family: "Times New Roman,Georgia, serif";
+		font-color: #001f3f;
+	font-weight:600;
+	font-size:8vw;
+	overflow: visible;
+	
+}
+.headerstyle3{
+	font-family: "Times New Roman,Georgia, serif";
+	font-color: #001f3f;
+	font-weight:500;
+	font-size:6vw;
+	overflow: visible;
+	
+}
+.headerstyle4{
+	font-family: "Roboto, Arial, sans-serif";
+	font-color: #85144b;
+	font-weight:400;
+	font-size:5vw;
+	overflow: visible;
+	
+}
+.headerstyle5{
+	font-family: "Roboto, Arial, sans-serif";
+	font-color: #85144b;
+	font-weight:300;
+	font-size:4vw;
+	overflow: visible;
+	
+}
+.headerstyle6{
+	font-family: "Roboto, Arial, sans-serif";
+	font-color: #3D9970; 
+	font-weight:200;
+	font-size:3vw;
+	overflow: visible;
+	
+}
+
+.buttonstyle1{
+	font-family: "Arial,Verdana,Sans-serif";
+	background-color: #0074D9;
+	font-color:white;
+	font-size:3vw;
+	overflow: visible;
+	text-transform: capitalize;
+	text-align:center;
+	border: double;
+	width: 200px;
+	margin: 2px;
+	padding: 1px;
+}
+.buttonstyle2{font-family: "Arial,Verdana,Sans-serif";
+	background-color:  #7FDBFF ;
+	font-color: #001f3f ;
+	font-size:3vw;
+	overflow: visible;
+	text-transform: capitalize;
+	text-align:justify;
+	border: solid;
+	width: 200px;	
+	margin: 2px;
+	padding: 1px;
+}
+.buttonstyle3{font-family: "Arial,Verdana,Sans-serif";
+	background-color: #01FF70 ;
+	font-color:maroon;
+	font-size:3vw;
+	overflow: visible;
+	text-transform: capitalize;
+	text-align:justify;
+	border: solid;
+	width: 200px;	
+	margin: 2px;
+	padding: 1px;
+}
+.buttonstyle4{font-family: "Courier New,Lucida Console,Monospace";
+	background-color: #DDDDDD 
+	font-color:black;
+	font-size:3vw;
+	overflow: visible;
+	text-transform: capitalize;
+	text-align:justify;
+	border: dotted;
+	width: 200px;	
+	margin: 2px;
+	padding: 1px;
+}
+.buttonstyle5{font-family: "Courier New,Lucida Console,Monospace";
+	background-color: #39CCCC 
+	font-color:black;
+	font-size:3vw;
+	overflow: visible;
+	text-transform: capitalize;
+	text-align:justify;
+	border: dotted;
+	width: 200px;	
+	margin: 2px;
+	padding: 1px;
+}
+.buttonstyle6{font-family: "Courier New,Lucida Console,Monospace";
+	background-color:light-blue ;
+	font-color:black;
+	font-size:3vw;
+	overflow: visible;
+	text-transform: capitalize;
+	text-align:justify;
+	border: groove;
+	width: 200px;	
+	margin: 2px;
+	padding: 1px;
+}
+
+.textstyle1{font-family: "Tahoma, Geneva, sans-serif";
+	background-color: #111111 
+	font-color:black;
+	font-size:2vw;
+	overflow: visible;
+	text-align:justify;}
+.textstyle2{font-family: "Trebuchet MS, Arial, Helvetica, sans-serif";
+	background-color: #111111 
+	font-color:black;
+	font-size:2vw;
+	overflow: visible;
+	text-align:justify;}
+.textstyle3{font-family: "Palatino Linotype, Book Antiqua, Palatino, serif";
+	background-color: #111111 
+	font-color:black;
+	font-size:2vw;
+	overflow: visible;
+	text-align:justify;}
+.textstyle4{font-family: "Lucida Sans Unicode, Lucida Grande, sans-serif";
+	background-color: #111111 
+	font-color:black;
+	font-size:2vw;
+	overflow: visible;
+	text-align:justify;}
+.textstyle5{font-family: "Comic Sans MS, cursive";
+	background-color: #111111 
+	font-color:black;
+	font-size:2vw;
+	overflow: visible;
+	text-align:justify;}
+.textstyle6{font-family: "Courier New,Courier,Monospace";
+	background-color: #111111 
+	font-color:black;
+	font-size:2vw;
+	overflow: visible;
+	text-align:justify;}

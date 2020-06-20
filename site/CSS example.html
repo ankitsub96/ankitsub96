@@ -3,11 +3,12 @@
 <html>
 <head>
 	<title>External and internal links</title>
+	<link rel="stylesheet" href="CSS Source.css">
 </head>
 
 <style>
 	p{
-		color: blue;
+		color: #00ffcc;
 		font-size: 20px;
 		width: 200px;
 		text-align: center
@@ -23,8 +24,14 @@
 		h3 font-size: x-large;
 		color: green;
 	}
-	section#a
+	#a
 	{
+		text-align: right;
+	}
+	ul
+	{
+		color: green;
+		font-size: x-large;
 		text-align: right;
 	}
 </style>
@@ -35,33 +42,42 @@
 		<a href= "Links.html">click here for original page without CSS</a>
 	</section> 
 
-	<h2 id="section 1">internal links</h2>
-		<p>This section contains links within same website(same directiory), hence no need to specify the absolute address. however, this is optional since absolute address works too.
-			<div>here is some filler text</div>
+	<h2 id="section 1">Internal links</h2>
+		<p>This section contains links within same website(same directiory), hence no need to specify the absolute address. However, this is optional since absolute address works too.
+			<h4>Here is some filler text</h4>
 				<div>Coursera (/kərˈsɛrə/) is a world-wide online learning platform founded in 2012 by Stanford computer science professors Andrew Ng and Daphne Koller that offers massive open online courses (MOOC), specializations, and degrees.
-					<div>repeat</div>
-					<p>Coursera works with universities and other organizations to offer online courses, specializations, and degrees in a variety of subjects, such as engineering, data science, machine learning, mathematics, business, computer science, digital marketing, humanities, medicine, biology, social sciences, and others. </p>
-					<div>repeat</div>
-					<p>Coursera works with universities and other organizations to offer online courses, specializations, and degrees in a variety of subjects, such as engineering, data science, machine learning, mathematics, business, computer science, digital marketing, humanities, medicine, biology, social sciences, and others. </p>
+					<h5>Repeat</h5>
+					<span>Coursera works with universities and other organizations to offer online courses, specializations, and degrees in a variety of subjects, such as engineering, data science, machine learning, mathematics, business, computer science, digital marketing, humanities, medicine, biology, social sciences, and others. </span>
+					<h5>Repeat</h5>
+					<span>Coursera works with universities and other organizations to offer online courses, specializations, and degrees in a variety of subjects, such as engineering, data science, machine learning, mathematics, business, computer science, digital marketing, humanities, medicine, biology, social sciences, and others. </span>
 				</div>
 		</p>
-	<h2 id="section 2">external links</h2>
+	<h2 id="section 2">External links</h2>
 		<p>This section contains links outside the same website(same directiory), hence there is absolute need to specify the absolute address. This is not optional.
-			<div>here is some filler text
+			<h4>Here is some filler text</h4>
 				<div>Coursera (/kərˈsɛrə/) is a world-wide online learning platform founded in 2012 by Stanford computer science professors Andrew Ng and Daphne Koller that offers massive open online courses (MOOC), specializations, and degrees.
 
 Coursera works with universities and other organizations to offer online courses, specializations, and degrees in a variety of subjects, such as engineering, data science, machine learning, mathematics, business, computer science, digital marketing, humanities, medicine, biology, social sciences, and others. </div>
-					<div>repeat</div>
-					<p>Coursera works with universities and other organizations to offer online courses, specializations, and degrees in a variety of subjects, such as engineering, data science, machine learning, mathematics, business, computer science, digital marketing, humanities, medicine, biology, social sciences, and others. </p>
-					<div>repeat</div>
-					<p>Coursera works with universities and other organizations to offer online courses, specializations, and degrees in a variety of subjects, such as engineering, data science, machine learning, mathematics, business, computer science, digital marketing, humanities, medicine, biology, social sciences, and others. </p>
-			</div>
+					<h5>Repeat</h5>
+					<span>Coursera works with universities and other organizations to offer online courses, specializations, and degrees in a variety of subjects, such as engineering, data science, machine learning, mathematics, business, computer science, digital marketing, humanities, medicine, biology, social sciences, and others. </span>
+					<h5>Repeat</h5>
+					<span>Coursera works with universities and other organizations to offer online courses, specializations, and degrees in a variety of subjects, such as engineering, data science, machine learning, mathematics, business, computer science, digital marketing, humanities, medicine, biology, social sciences, and others. </span>
 		</p>
-	<h3>Links</h3>
+	<h1>Links</h1>
 	<ul>
-		<li><a href="Lists.html" target="_blank">internal link, but different page(Lists.html)</a></li>
-		<li><a href="#section 1" >internal link, but same page(section 1)</a></li>
-		<li><a href="https://en.wikipedia.org/wiki/Coursera" target="_blank">external link</a></li> 
-		<li><a href="#top">back to top</a></li> 
+		<li><a href="index.html">Internal link, but different page(Homepage)</a></li>
+		<li><a href="#section 1" >Internal link, but same page(section 1)</a></li>
+		<li><a href="https://en.wikipedia.org/wiki/Coursera" target="_blank">External link- Cousera Wiki</a></li> 
+		<li><a href="#top">Back to top</a></li> 
 	</ul>
+	<aside></aside>
+	<!--list concepts used implicitly here-->
+	<footer>
+		<h2 id="a">Credits</h2>
+		<ul>
+			<li>Coursera- HTML, CSS, and Javascript for Web Developers <span>by John Hopkins University</span></li>
+			<li><a href="https://www.w3schools.com/" target=""_blank>https://www.w3schools.com/</a></li>
+		</ul>
+	</footer>
+
 </body>

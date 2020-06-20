@@ -3,10 +3,11 @@
 <head>
 <meta charset="utf-8">
 <title>Simple Selectors combos</title>
+<link rel="stylesheet" href="CSS Source.css">
 <style>
 
 
-h2 {
+h2, div {
   text-align: center;
 }
 
@@ -37,8 +38,19 @@ p, h1 {
 <body>
   <h1>Examples of selector combos</h1>
   <h2>Simple Element selector</h2>
+  <div>Here, styling is applied using Element selector on h2 tag</div>
   <h2 class="highlight">Element and class selector </h2>
-  <p id="mainpoint">element and id selector</p>
-
+  <div>Here, styling is applied using Element and class selector on h2 tag and class="highlight"</div>
+  <p id="mainpoint">Element and id selector</p>
+  <div>Here, styling is applied using Element and ID selector on p tag and id="mainpoint"</div>
+  <aside></aside>
+  <!--list concepts used implicitly here-->
+  <footer>
+    <h2 id="a">Credits</h2>
+    <ul>
+      <li>Coursera- HTML, CSS, and Javascript for Web Developers <span>by John Hopkins University</span></li>
+      <li><a href="https://www.w3schools.com/" target=""_blank>https://www.w3schools.com/</a></li>
+    </ul>
+  </footer>
 </body>
 </html>

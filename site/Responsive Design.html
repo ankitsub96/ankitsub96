@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Responsive Layout</title>
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+  border: 1px solid black;
+  background-color: #A52A2A;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .large1, .large2, .large3, .large4, .large5, .large6, .large7, .large8, .large9, .large10, .large11, .large12 {
+    float: left;
+    border: 1px solid green;
+  }
+  .large1 {
+    width: 8.33%;
+  }
+  .large2 {
+    width: 16.66%;
+  }
+  .large3 {
+    width: 25%;
+  }
+  .large4 {
+    width: 33.33%;
+  }
+  .large5 {
+    width: 41.66%;
+  }
+  .large6 {
+    width: 50%;
+  }
+  .large7 {
+    width: 58.33%;
+  }
+  .large8 {
+    width: 66.66%;
+  }
+  .large9 {
+    width: 74.99%;
+  }
+  .large10 {
+    width: 83.33%;
+  }
+  .large11 {
+    width: 91.66%;
+  }
+  .large12 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .medium1, .medium2, .medium3, .medium4, .medium5, .medium6, .medium7, .medium8, .medium9, .medium10, .medium11, .medium12 {
+    float: left;
+    border: 1px solid green;
+  }
+  .medium1 {
+    width: 8.33%;
+  }
+  .medium2 {
+    width: 16.66%;
+  }
+  .medium3 {
+    width: 25%;
+  }
+  .medium4 {
+    width: 33.33%;
+  }
+  .medium5 {
+    width: 41.66%;
+  }
+  .medium6 {
+    width: 50%;
+  }
+  .medium7 {
+    width: 58.33%;
+  }
+  .medium8 {
+    width: 66.66%;
+  }
+  .medium9 {
+    width: 74.99%;
+  }
+  .medium10 {
+    width: 83.33%;
+  }
+  .medium11 {
+    width: 91.66%;
+  }
+  .medium12 {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+<h1>Responsive Layout</h1>
+
+<div class="row">
+  <div class="large3 medium6"><p>Item 1</p></div>
+  <div class="large3 medium6"><p>Item 2</p></div>
+  <div class="large3 medium6"><p>Item 3</p></div>
+  <div class="large3 medium6"><p>Item 4</p></div>
+  <div class="large3 medium6"><p>Item 5</p></div>
+  <div class="large3 medium6"><p>Item 6</p></div>
+  <div class="large3 medium6"><p>Item 7</p></div>
+  <div class="large3 medium6"><p>Item 8</p></div>
+</div>
+
+</body>
+</html>
