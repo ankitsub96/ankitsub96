@@ -12,8 +12,17 @@ a:active {
 
 a:visited {
   background-color: #ccc;
+  text-transform: none;
 }
 
+@media (min-width: 1200px) {
+  .headerstyle1, .headerstyle2, .headerstyle3, .headerstyle4, .headerstyle5, .headerstyle6{
+    width: 50vw;
+  }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .headerstyle1, .headerstyle2, .headerstyle3, .headerstyle4, .headerstyle5, .headerstyle6{
+    width: 30vw;
+  }
 .headerstyle1{
 	font-family: "Times New Roman,Georgia, serif";
 	font-color: black;
@@ -63,6 +72,14 @@ a:visited {
 	
 }
 
+@media (min-width: 1200px) {
+  .buttonstyle1, .buttonstyle2, .buttonstyle3, .buttonstyle4, .buttonstyle5, .buttonstyle6{
+    width: 50vw;
+  }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .buttonstyle1, .buttonstyle2, .buttonstyle3, .buttonstyle4, .headerstyle5, .buttonstyle6{
+    width: 30vw;
+  }
 .buttonstyle1{
 	font-family: "Arial,Verdana,Sans-serif";
 	background-color: #0074D9;
@@ -137,6 +154,21 @@ a:visited {
 	padding: 1px;
 }
 
+@media (min-width: 1200px) {
+  .textstyle1, .textstyle2, .textstyle3, .textstyle4, .textstyle5, .textstyle6{
+    height: 300px;
+    overflow: visible;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+  .textstyle1, .textstyle2, .textstyle3, .textstyle4, .textstyle5, .textstyle6{
+    overflow: visible;
+  }
+  @media(max-width: 991px) {
+  .textstyle1, .textstyle2, .textstyle3, .textstyle4, .textstyle5, .textstyle6{
+    height: 500px;
+    width: 30px;
+    overflow: visible;
+  }
 .textstyle1{font-family: "Tahoma, Geneva, sans-serif";
 	background-color: #111111 
 	font-color:black;
