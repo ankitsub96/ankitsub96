@@ -1,33 +1,44 @@
 
 #article1{
-	background-color: teal;
 	box-sizing: border-box;
+	margin-top: 0px;
 }
 .section1{
-	background-color: #ffccff;
+	box-sizing: border-box;
+	background-color: #ffccd9;
 	border: 1px solid black;
 	margin: 10px;
 	margin-top: 0px;
 	float:left;
+	height: 250px;
+	padding-left: 5px;
+	padding-top: 0px;
 }
 .section2{
+	box-sizing: border-box;
 	background-color: #ccffd9;
 	border: 1px solid black;
 	margin: 10px;
 	margin-top: 0px;
 	float:left;
+	height: 250px;
+	padding-left: 5px;
 }
 .section3{
-	background-color: ##ffff99;
+	box-sizing: border-box;
+	background-color: #99e6ff;
 	border: 1px solid black;
 	margin: 10px;
 	margin-top: 0px;
 	float:left;
+	height: 250px;
+	padding-left: 5px;
 }
 .heading1{
-	background-color: #ffccff;
+	background-color: #99e6ff;
 	box-sizing: border-box;
 	border: 1px solid black;
+	border-right: none;
 	width: 33%;
 	position: relative;
 	left:67%;
@@ -39,6 +50,7 @@
 	background-color: #ffccd9;
 	box-sizing: border-box;
 	border: 1px solid black;
+	border-right: none;
 	width: 33%;
 	position: relative;
 	left:67%;
@@ -49,6 +61,7 @@
 	background-color: #d9ffcc;
 	box-sizing: border-box;
 	border: 1px solid black;
+	border-right: none;
 	width: 33%;
 	position: relative;
 	left:67%;
@@ -59,20 +72,25 @@
 
 
 @media (min-width: 992px) {
-  .section1,.section2,.section3{
-    width: 33%;
-    margin-top: 0px;
+  .col-lg-1, .col-lg-2, .col-lg-3{
+    width: 31%;
+    margin-top: 0px;}
 
   }
 @media (min-width: 768px) and (max-width: 991px) {
-  .section1,.section2,.section3{
-    width: 50%;
+  	.col-md-1, .col-md-2{
+    width: 47%;
     margin-top: 0px;
+	}
+	.col-md-3{
+	width: 96.7%;
+    margin-top: 0px;
+	}
   }
 @media (max-width: 767px) {
-  .section1,.section2,.section3{
+  .col-sm-1, .col-sm-2, .col-sm-3{
     width: 100%;
-    margin-top: 0px;
+    margin-top: 0px;}
 }
 .headerstyle1{
 	font-family: "Times New Roman,Georgia, serif";
@@ -87,44 +105,15 @@
 	font-family: "Times New Roman,Georgia, serif";
 		font-color: #001f3f;
 	font-weight:600;
-	font-size:8vw;
+	font-size:20vw;
+	font-size:20%;
 	overflow: visible;
 	}
 
 
-.textstyle1{font-family: "Tahoma, Geneva, sans-serif";
-	background-color: #111111 
-	font-color:black;
-	font-size:2vw;
-	overflow: visible;
-	text-align:justify;}
-.textstyle2{font-family: "Trebuchet MS, Arial, Helvetica, sans-serif";
-	background-color: #111111 
-	font-color:black;
-	font-size:2vw;
-	overflow: visible;
-	text-align:justify;}
+
 .textstyle3{font-family: "Palatino Linotype, Book Antiqua, Palatino, serif";
-	background-color: #111111 
 	font-color:black;
 	font-size:2vw;
-	overflow: visible;
-	text-align:justify;}
-.textstyle4{font-family: "Lucida Sans Unicode, Lucida Grande, sans-serif";
-	background-color: #111111 
-	font-color:black;
-	font-size:2vw;
-	overflow: visible;
-	text-align:justify;}
-.textstyle5{font-family: "Comic Sans MS, cursive";
-	background-color: #111111 
-	font-color:black;
-	font-size:2vw;
-	overflow: visible;
-	text-align:justify;}
-.textstyle6{font-family: "Courier New,Courier,Monospace";
-	background-color: #111111 
-	font-color:black;
-	font-size:2vw;
-	overflow: visible;
-	text-align:justify;}
+	}
+
