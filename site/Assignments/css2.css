@@ -11,6 +11,7 @@ section {
     border: 1px solid black;
     background-color: #b2beb5;
     margin: 10px;
+    height: 200px;
 }
 
 section>h3 {
