@@ -1,13 +1,36 @@
 *{
 	box-sizing: border-box;
 }
-nav{
+.navbar-custom{
 	background-color: #808080;
 }
-nav div #nav-head{
-	font-weight: 900;
-	font-size: 15px;
+.navbar-custom div a{
+	font-weight: 500;
+	font-size: 5vw;
+	color: black;
+}
+nav .container-fluid{
+  padding-left:0px;
+  padding-right:0px;
+}
+.navbar-custom #collapsable-nav{
+	background-color: #e6e6e6;
+	width: justify;
+}
+.navbar-custom #collapsable-nav a{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
 div section{
 	background-color: #808080;
+}
+#nav-list li a{
+	color: black;
+}
+
+#main-section{
+	margin:  10px 10px;
+}
+#section-header span{
+	font-size: 1.5em;
 }
