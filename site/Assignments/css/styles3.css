@@ -9,6 +9,10 @@
 	font-size: 5vw;
 	color: black;
 }
+@media(min-width: 768px){
+	.navbar-custom div a{font-size: 37.3px;}
+}
+
 nav .container-fluid{
   padding-left:0px;
   padding-right:0px;
@@ -33,4 +37,7 @@ div section{
 }
 #section-header span{
 	font-size: 1.5em;
+}
+h1{
+	font-size: 32px;
 }
