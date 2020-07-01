@@ -1,5 +1,13 @@
-div #nav-head{
+*{
+	box-sizing: border-box;
+}
+nav{
+	background-color: #808080;
+}
+nav div #nav-head{
 	font-weight: 900;
-	font-size: 4vw;
-	background-color: grey;
+	font-size: 15px;
+}
+div section{
+	background-color: #808080;
 }
