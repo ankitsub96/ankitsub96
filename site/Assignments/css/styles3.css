@@ -39,6 +39,9 @@ div section{
 h1{
 	font-size: 32px;
 }
-#Chicken{background-color: #d5f4e6;}
-#Beef{background-color: #FFF8DC;}
-#Sushi{background-color: #FFA07A;}
+#Chicken{background-color: #d5f4e6;
+margin-top:5px;}
+#Beef{background-color: #FFF8DC;
+margin-top:5px;}
+#Sushi{background-color: #FFA07A;
+margin-top:5px;}
