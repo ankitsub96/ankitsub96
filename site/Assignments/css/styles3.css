@@ -27,6 +27,7 @@ nav .container-fluid{
 }
 div section{
 	background-color: #808080;
+	border: 1px solid black;
 }
 #nav-list li a{
 	color: black;
@@ -38,3 +39,6 @@ div section{
 h1{
 	font-size: 32px;
 }
+#Chicken{background-color: #d5f4e6;}
+#Beef{background-color: #FFF8DC;}
+#Sushi{background-color: #FFA07A;}
